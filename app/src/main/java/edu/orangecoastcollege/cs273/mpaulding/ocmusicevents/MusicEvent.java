@@ -1,15 +1,26 @@
 package edu.orangecoastcollege.cs273.mpaulding.ocmusicevents;
 
 /**
- * Created by mpaulding on 9/26/16.
+ * The MusicEvent class is a place holder for data corresponding to music events
+ * occurring within Orange County.  Currently, two arrays contain the data: one array
+ * stores the titles of each upcoming music event, while the other maintains the details
+ * about the event.
+ *
+ * @author Michael Paulding
+ * @version 1.0
  */
-
 public class MusicEvent {
 
+    /**
+     * The titles of upcoming music events.
+     */
     public static String[] titles = {
             "Blink 182", "Ben Folds And A Piano", "Tony Bennett", "How The West Was Won",
             "Will Downing", "Simple Plan", "Gwen Stefani", "Sublime With Rome"};
 
+    /**
+     * The details of upcoming music events.
+     */
     public static String[] details = {
             "October 7\n" +
                     "Friday - 7:00 PM\n" +
