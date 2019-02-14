@@ -14,53 +14,50 @@ public class MusicEvent {
     /**
      * The titles of upcoming music events.
      */
+
     public static String[] titles = {
-            "Blink 182", "Ben Folds And A Piano", "Tony Bennett", "How The West Was Won",
+            "Justin Timberlake", "Blues Traveler", "Gladys Knight", "Ariana Grande",
+            "Goo Goo Dolls", "Rebelution", "Carlos Santana", "Ozzy Osbourne"};
+
+    public static String[] titlesOld = {
+            "Blink 182", "Ben Folds And A Piano", "Tony Bennett", "Gladys Knight",
             "Will Downing", "Simple Plan", "Gwen Stefani", "Sublime With Rome"};
 
     /**
      * The details of upcoming music events.
      */
     public static String[] details = {
-            "October 7\n" +
-                    "Friday - 7:00 PM\n" +
-                    "Irvine Meadows (formerly Verizon Wireless)\n" +
-                    "8808 Irvine Center Drive\n" +
-                    "Irvine, California 92618",
-            "October 20\n" +
+            "February 21\n" +
                     "Thursday - 8:00 PM\n" +
-                    "City National Grove of Anaheim\n" +
-                    "2200 E Katella Ave\n" +
-                    "Anaheim, California" ,
-            "October 23\n" +
+                    "Pechanga Arena\n" +
+                    "San Diego, CA" ,
+            "February 28\n" +
+                    "Thursday - 7:00 PM\n" +
+                    "House of Blues\n" +
+                    "San Diego, CA" ,
+            "March 9\n" +
+                    "Saturday - 7:00 PM\n" +
+                    "Pechanga Resort and Casino\n" +
+                    "Temecula, CA",
+            "April 12\n" +
+                    "Friday - 3:30 AM\n" +
+                    "Coachella 2019\n" +
+                    "Indio, CA",
+            "June 14\n" +
+                    "Friday- 7:00 PM\n" +
+                    "North Island Amphitheatre\n" +
+                    "Chula Vista, CA",
+            "June 15\n" +
+                    "Saturday - 7:00 PM\n" +
+                    "North Island Amphitheatre\n" +
+                    "Chula Vista, CA",
+            "June 23\n" +
                     "Sunday - 7:00 PM\n" +
-                    "Renée and Henry Segerstrom Concert Hall\n" +
-                    "615 Town Center Drive\n" +
-                    "Costa Mesa, California 92626" ,
-            "October 14\n" +
-                    "Friday - 6:30 PM\n" +
-                    "Irvine Meadows (formerly Verizon Wireless)\n" +
-                    "8808 Irvine Center Drive\n" +
-                    "Irvine, California 92618",
-            "September 30\n" +
-                    "Friday - 6:00 PM\n" +
-                    "Hyatt Newport Beach\n" +
-                    "1107 Jamboree Rd\n" +
-                    "Newport Beach, California 92660" ,
-            "October 4\n" +
-                    "Tuesday - 7:00 PM\n" +
-                    "The Observatory\n" +
-                    "3503 South Harbor Boulevard\n" +
-                    "Santa Ana, California 92704" ,
-            "October 29\n" +
-                    "Saturday - 7:30 PM\n" +
-                    "Irvine Meadows (formerly Verizon Wireless)\n" +
-                    "8808 Irvine Center Drive\n" +
-                    "Irvine, California 92618" ,
-            "October 15\n" +
-                    "Saturday   6:30 PM\n" +
-                    "Irvine Meadows (formerly Verizon Wireless)\n" +
-                    "8808 Irvine Center Drive\n" +
-                    "Irvine, California 92618"
+                    "North Island Amphitheatre\n" +
+                    "Chula Vista, CA",
+            "July 23\n" +
+                    "Tuesday - 7:30 PM\n" +
+                    "North Island Amphitheatre\n" +
+                    "Chula Vista, CA"
     };
 }

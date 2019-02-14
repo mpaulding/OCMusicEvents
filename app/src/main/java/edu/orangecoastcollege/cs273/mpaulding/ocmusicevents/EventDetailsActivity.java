@@ -31,7 +31,7 @@ public class EventDetailsActivity extends AppCompatActivity {
         Intent detailsIntent = getIntent();
         String title = detailsIntent.getStringExtra("Title");
         String details = detailsIntent.getStringExtra("Details");
-        String imageFileName = title.replace(" ", "") + ".jpeg";
+        String imageFileName = title.replace(" ", "") + ".png";
 
         AssetManager am = context.getAssets();
         try {
